@@ -1,90 +1,80 @@
 *{
     margin: 0;
     padding: 0;
-    
-}
-    
+} 
 body {
     font-family: Arial, sans-serif;
 }
-
 nav {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #3F4267;
-    padding: 30px;
-    align-items: center;
-    color: white;
-    height: 50px;
-    justify-content: space-between;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flexbox;
+    padding: 10px;
+    background-color: #3b3f6b;
+    color: rgb(0, 0, 0);
+    height: 90px;
 }
-
 nav ul {
-    list-style: none;
-    display: flex;
-    margin-right: 0;
-    padding: 0;
-    justify-content: flex-end;
+    display: inline-table;
+    margin-left: 48%;
+    
 }
-
 nav li {
-    margin-right: 30px; 
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
 }
-
 nav li:first-child {
     margin-left: 0;
 }
-
 nav a {
     color: white;
     text-decoration: none;
 }
-
 main {
     justify-content: center;
     padding: 3%;
-
-
 }
-
 .sidebar {
     background-color: #333333;
-    width: 20%;
-    margin-left: 3%;
+    width: 16%;
     margin-top: 1%;
-    height: 30%;
+    height: 40%;
     float: left;
+    margin-left: 20px;
+    margin-right: auto;
+    
 }
-
 .sidebar h2 {
     margin-top: 5%;
     color: white;
     margin-left: 5%;
-   
+    text-align: left;
 }
-
 .sidebar ul {
     list-style: none;
     margin: 5%;
 }
-
 .sidebar li {
     margin-bottom: 4%;
+    text-align: left;
 }
-
 .Tiger,
 .Lion,
 .Snake,
 .Whale,
 .Turtle {
-   
+    display: inline-flex;
     background: linear-gradient(to right, #1D0E43, #D9322E);
-    border-radius: 50% 3% 50% 3%;
-    width: 100px;
+    border-radius: 70px 0 70px 0;
+    width: 90px;
     height: 50px;
-    display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    
 }
 .Turtle{
  margin-right: 0px;       
@@ -95,69 +85,60 @@ main {
     text-decoration: none;
     transition: color 0.8s;
 }
-
 .Shark a:hover {
     color: red;
 }
-
-
 .Article {
-    padding-left: 30%;
     border: 4px solid #771717;
     color: red;
-    width: 90%;
-    height: 20%;
+    width: calc(75% - 50px);
     padding: 2%;
     box-sizing: border-box;
     background-color: #EEC9CC;
-    margin-top: 0;
+    margin: 16px 70px 10px 0px; 
+    float: left; 
     
 }
-
 .Border {
-    display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 1%;
+    display: inline-flex;
 
 }
-
 .Dog {
     color: black;
     text-align: left;
     margin-top: 1%;
 }
-
 .Cat {
     color: black;
     text-align: left;
     margin-top: 2%;
     margin-right: 3%;
 }
-
 .fas {
-    display: flex;
     font-size: 40px;
     border: 4px solid #000;
     color: #000;
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 100px;
     align-items: center;
     width: 50px;
     height: 50px;
     padding: 12px 5px 1px 10px;
+    justify-content: center;
+    margin-top: 5px;
 }
 .fa-solid {
     font-size: 300%;
     color: red;
-    margin-left: 13%;
+    margin-left: 10%;
     margin-top: 2%;   
 }
-
 main {
     background-color: #F4F4F4;
 }
-
 footer {
     text-align: center;
     background-color: #333333;
